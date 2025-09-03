@@ -1,0 +1,60 @@
+#section-one-div-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-one-div-two-class{
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+}
+.chosen-div{
+    padding-top:5%;
+}
+.chosen-div h1{
+    color: black;
+    padding-bottom: 1%;
+ }
+ .karuselis-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+ 
+}
+.prev{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+.star-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    transition: transform 0.5s ease-in-out;
+    }
+    .bacground-div{
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px;
+        
+    }
+    .bacground-div img{
+        width: 210px;
+        border-radius: 10px;
+    }
+    .bacground-div{
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px;
+        
+    }
